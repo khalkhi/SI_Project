@@ -21,7 +21,7 @@ include 'users-php';
     }
     
     tr:nth-child(even) {
-        background-color: #dddddd;   
+        background-color: #dddddd;
 
     }
     </style>
@@ -34,8 +34,7 @@ include 'users-php';
     <div class = "main">
         <div class = "navbar">
             <div class = "icon">
-                <h2 class="logo"> RAILWAY   
- SHIPMENTS </h2>
+                <h2 class="logo"> RAILWAY SHIPMENTS </h2>
         </div>
     </div>
     

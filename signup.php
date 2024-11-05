@@ -56,6 +56,8 @@
                 <button name="logout" class="btnn">Log out</button>
             </form>
         <?php } else { ?>
+
+//            SignUp Form
             <form class="form" action="signup.php" method="post">
                 <h2>Sign Up Here</h2>
                 <div class="error"><?php echo $error ?></div>

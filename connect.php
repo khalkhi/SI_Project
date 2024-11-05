@@ -1,10 +1,9 @@
 <?php
 
+//database info
     $servername = "localhost";
     $argc = "root";
-
     $password = "";
-
     $db_name = 'railway_db' ;
 
 // Create connection

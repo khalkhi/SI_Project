@@ -53,6 +53,7 @@ include 'users.php';
             </form>
         <?php } else { ?>
 
+            /Login form/
             <form class="form" action="./index.php" method="post">
                 <h2>Login Here</h2>
                 <div class="error"><?php echo isset($error) ? $error : ''; ?></div>
