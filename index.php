@@ -1,5 +1,5 @@
 <?php 
-include 'users.php';
+include './users.php';
 ?>
 
 <!DOCTYPE html>
@@ -54,15 +54,18 @@ include 'users.php';
         <?php } else { ?>
 
         
+
             <form class="form" action="./index.php" method="post">
                 <h2>Login Here</h2>
+                <p class="liw">Log in with</p>
+                <p class="liw"></p>
                 <div class="error"><?php echo isset($error) ? $error : ''; ?></div>
                 <input type="email" name="email" placeholder="Enter Email Here" value="<?php echo isset($emailValue) ? $emailValue : ''; ?>">
                 <input type="password" name="password" placeholder="Enter Password Here" value="<?php echo isset($passwordValue) ? $passwordValue : ''; ?>">
                 <button name="login" class="btnn">Login</button>
 
                 <p class="link">Don't have an account?<br><a href="./signup.php">Sign up here</a></p>
-                <p class="liw">Log in with</p>
+                
 
                 <div class="icons">
                     <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
