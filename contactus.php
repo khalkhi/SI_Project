@@ -23,9 +23,9 @@
 
         <div class="menu">
             <ul>
-                <li><a href="_/index.php">HOME</a></li>
+                <li><a href="./index.php">HOME</a></li>
                 <li><a href="./manage.php">PACKAGES</a></li>
-                <li><a href="_/about.php">ABOUT</a></li>
+                <li><a href="./about.php">ABOUT</a></li>
                 <li><a class="active" href="./contactus.php">CONTACT</a></li>
             </ul>
         </div>
