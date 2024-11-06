@@ -2,7 +2,7 @@
 
 //database info
     $servername = "localhost";
-    $argc = "root";
+    $username = "root";
     $password = "";
     $db_name = 'railway_db' ;
 
