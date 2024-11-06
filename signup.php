@@ -61,8 +61,8 @@
             <form class="form" action="signup.php" method="post">
                 <h2>Sign Up Here</h2>
                 <div class="error"><?php echo $error ?></div>
-                <input type="text" name="fname" placeholder="Enter First Name Here" value="<?php echo $nameValue ?>">
-                <input type="text" name="Iname" placeholder="Enter Last Name Here" value="<?php echo $InameValue ?>"> 
+                <input type="text" name="fname" placeholder="Enter First Name Here" value="<?php echo $fnameValue ?>">  <!--  was nameValue changed to fnameValue-->
+                <input type="text" name="lname" placeholder="Enter Last Name Here" value="<?php echo $lnameValue ?>"> 
                 <input type="email" name="email" placeholder="Enter Email Here" value="<?php echo $emailValue ?>">
                 <input type="password" name="password" placeholder="Enter Password Here">
                 <button name="signup" class="btnn">Sign up</button>
