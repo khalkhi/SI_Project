@@ -64,8 +64,7 @@ ul li a{
 }
 
 ul li a:hover{
-    color:   
- #09a939;
+    color: #09a939;
 }
 
 .search{
@@ -80,8 +79,7 @@ ul li a:hover{
     width: 200px; 
     height: 40px;
     background: transparent;
-    border: 1px solid   
- #09a939;
+    border: 1px solid #09a939;
     margin-top: 13px;
     color: #fff;
     border-right: none; 
@@ -95,8 +93,7 @@ ul li a:hover{
 .btn{
     width: 100px; 
     height: 40px; 
-    background:   
- #09a939;
+    background: #09a939;
     border: 2px solid #09a939;
     margin-top: 13px; 
     color: #fff; 
@@ -108,8 +105,7 @@ ul li a:hover{
 }
 
 .btn:hover{
-    color:   
- #000;
+    color:  #000;
 }
 
 .btn:focus{
@@ -148,8 +144,7 @@ ul li a:hover{
 .content .cn{
     width: 160px; 
     height: 40px;
-    background:   
- #09a939;
+    background: #09a939;
     border: none;
     margin-bottom: 10px;
     margin-left: 20px;
@@ -170,8 +165,7 @@ ul li a:hover{
 }
 
 .content span{ 
-    color:   
- #09a939;
+    color: #09a939;
     font-size: 65px;
 }
 
@@ -183,14 +177,15 @@ ul li a:hover{
     top: -20px;
     left: 870px;
     transform: translate(0%, -5%); 
-    border-radius: 10px; padding: 25px;
+    border-radius: 10px; 
+    padding: 25px;
 
 }
 
 .aside{
     width: 250px;
     height: auto;
-    background: linear-gradient (to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%); 
+    background: linear-gradient (to top, rgba(5, 5, 5, 0.8)50%,rgba(0,0,0,0.8)50%); 
     left: 870px; 
     float: right; 
     border-radius: 10px;
@@ -198,10 +193,11 @@ ul li a:hover{
 }
 
 .form h2{
-    width: 220px; font-family: sans-serif; 
+    width: 220px; 
+    align-items: center;
+    font-family: sans-serif; 
     text-align: center; 
-    color:   
- #09a939; 
+    color:  #09a939; 
     font-size: 22px; 
     background-color: #fff;
     border-radius: 10px; 
@@ -211,15 +207,15 @@ ul li a:hover{
 
 .form input{
     width: 240px;
-     height: 35px;
+    height: 35px;
     background: transparent;
-     border-bottom: 1px solid;
-
+    border-bottom: 1px solid;
     border-top: none; 
     border-right: none;
-     border-left: none;
+    border-left: none;
     color: #fff;
-    font-size: 15px; letter-spacing: 1px; 
+    font-size: 15px; 
+    letter-spacing: 1px; 
     margin-top: 30px; 
     font-family: sans-serif;
 
@@ -265,8 +261,7 @@ ul li a:hover{
 }   
 
 .icons ion-icon:hover{
-    color:   
- #09a939;
+    color: #09a939;
 }
 
 .about {

@@ -1,5 +1,5 @@
 <?php 
-include './users.php';
+include 'users.php';
 ?>
 
 <!DOCTYPE html>
@@ -40,11 +40,16 @@ include './users.php';
     <div class="content">
         <h1>WELCOME TO <br> RAILWAY SHIPMENTS<br></h1>
         <p class="par">
-            We offer scheduled services from convenient locations on Jamaica's north and south coasts including connections to Portland, St. Mary, and Negril.<br>
-            Let us come to your home or business to pick up your package.<br>It's easy to schedule a one-time pickup online.<br>
+        <br><br>
+        </p>
+        <p class="par">
+        We offer scheduled services from convenient locations on Jamaica's north and south coasts<br>
+            including connections to Portland, St. Mary, and Negril.<br>
+            Let us come to your home or business to pick up your package.<br>
+            It's easy to schedule a one-time pickup online.<br>
             If you have recurring delivery needs, plan ahead with regular pickups.
         </p>
-
+        
         <?php
         if (isset($_SESSION['id'])) { ?>
             <form class="form" action="./logout.php" method="post">
@@ -53,11 +58,11 @@ include './users.php';
             </form>
         <?php } else { ?>
 
-        
+     
 
             <form class="form" action="./index.php" method="post">
                 <h2>Login Here</h2>
-                <p class="liw">Log in with</p>
+                <p class="liw">Log in with:</p>
                 <p class="liw"></p>
                 <div class="error"><?php echo isset($error) ? $error : ''; ?></div>
                 <input type="email" name="email" placeholder="Enter Email Here" value="<?php echo isset($emailValue) ? $emailValue : ''; ?>">
