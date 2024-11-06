@@ -51,14 +51,14 @@
         </p>
         
         <?php if (isset($_SESSION['id'])) { ?>
-            <form class="form" action="./logout.php" method="post">
+            <form class="form" action="./logout.php" method="POST">
                 <p>Logged in as: <b><?php echo $_SESSION['fullname'] ?></b></p>
                 <button name="logout" class="btnn">Log out</button>
             </form>
         <?php } else { ?>
 
 
-            <form class="form" action="signup.php" method="post">
+            <form class="form" action="signup.php" method="POST">
                 <h2>Sign Up Here</h2>
                 <div class="error"><?php echo $error ?></div>
                 <input type="text" name="fname" placeholder="Enter First Name Here" value="<?php echo $fnameValue ?>">  <!--  was nameValue changed to fnameValue-->
