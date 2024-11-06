@@ -1,6 +1,29 @@
 <?php
 
+// Database info
+$serverName = "localhost";
+$userName = "root";
+$password = "";
+$dbName = "railway_db";
 
+// Create connection with MySQLi
+try {
+    $conn = new mysqli($serverName, $userName, $password, $dbName);
+
+    // Check connection
+    if ($conn->connect_error) {
+        throw new Exception("Connection failed: " . $conn->connect_error);
+    }
+
+    echo "Connected successfully";
+} catch (Exception $e) {
+    // Handle connection error
+    echo "Error in connection: " . $e->getMessage();
+}
+
+// Close the connection
+//$conn->close();
+/*
 //database info
 
 $serverName = "localhost";
@@ -21,12 +44,7 @@ try{
     }
 
     //ANOTHER WAY TO CONNECT DB
-    //////////////////////////////
-
-
-
-
-
+    //////////////////////////////not working and exception makes pages not show
    /* $servername = "localhost";
     $username = "root";
     $password = "'";

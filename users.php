@@ -66,7 +66,7 @@ if (isset($_POST['login'])){
 if( isset($_POST['signup'])) {
     $fname = $_POST ['fname' ];
     $lname = $_POST ['lname' ];
-    $email = $_POST[' email'];
+    $email = $_POST['email'];
     $password = $_POST['password'];
 
 
@@ -125,7 +125,7 @@ if( isset($_POST['signup'])) {
 
 $fnameValue = $_POST[ 'fname'];
 $lnameValue = $_POST[ 'lname'];
-$emailValue = $_POST[' email'];
+$emailValue = $_POST['email'];
 $passwordValue = $_POST[ 'password'];
 
 }
