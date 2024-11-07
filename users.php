@@ -3,7 +3,7 @@
 session_start();
 
 
-// define a variables
+// define variables
 $error = "";
 $fnameValue ="";
 $lnameValue ="";
@@ -130,3 +130,4 @@ $passwordValue = $_POST[ 'password'];
 
 }
 ?>
+
