@@ -60,7 +60,6 @@ include 'users.php';
         <?php } else { ?>
 
      
-
             <form class="form" action="./index.php" method="post">
                 <h2>Login Here</h2>
                 <p class="liw">Log in with:</p>
@@ -68,7 +67,7 @@ include 'users.php';
                 <div class="error"><?php echo isset($error) ? $error : ''; ?></div>
                 <input type="email" name="email" placeholder="Enter Email Here" value="<?php echo isset($emailValue) ? $emailValue : ''; ?>">
                 <input type="password" name="password" placeholder="Enter Password Here" value="<?php echo isset($passwordValue) ? $passwordValue : ''; ?>">
-                <button name="login" class="btnn">Login</button>
+                <button name="login" class="btn">Login</button>
 
                 <p class="link">Don't have an account?<br><a href="./signup.php">Sign up here</a></p>
                 

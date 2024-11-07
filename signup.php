@@ -65,7 +65,7 @@
                 <input type="text" name="lname" placeholder="Enter Last Name Here" value="<?php echo $lnameValue ?>"> 
                 <input type="email" name="email" placeholder="Enter Email Here" value="<?php echo $emailValue ?>">
                 <input type="password" name="password" placeholder="Enter Password Here">
-                <button name="signup" class="btnn">Sign up</button>
+                <button name="signup" class="btn">Sign up</button>
 
                 <p class="link">Already have an account?<br><br>
                 <a href="./index.php">Log in</a> here</p>
