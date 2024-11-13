@@ -27,8 +27,10 @@ include 'users.php';
             <ul>
                 <li><a class="active" href="/index.php">HOME</a></li>
                 <li><a href="./manage.php">PACKAGES</a></li>
+                <li><a href="./train.php">Train</a></li>
                 <li><a href="./about.php">ABOUT</a></li>
                 <li><a href="./contactus.php">CONTACT</a></li>
+               
             </ul>
         </div>
 
@@ -38,7 +40,7 @@ include 'users.php';
         </div>
     </div>
 
-    <div class="content">
+    <!-- <div class="content"> -->
         <h1>WELCOME TO <br> RAILWAY SHIPMENTS<br></h1>
         <p class="par">
         <br><br>
