@@ -7,7 +7,7 @@ $password = "";
 $dbName = "railway_db";
 
 // Create connection with MySQLi
-try {
+/*try {
     $conn = new mysqli($serverName, $userName, $password, $dbName);
 
     // Check connection
@@ -19,7 +19,7 @@ try {
 } catch (Exception $e) {
     // Handle connection error
     echo "Error in connection: " . $e->getMessage();
-}
+}*/
 
 // Close the connection
 //$conn->close();
