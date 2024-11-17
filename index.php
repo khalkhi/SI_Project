@@ -19,7 +19,7 @@ include 'users.php';
     <div class="main">
         <div class="navbar">
             <div class="icon">
-                <h2 class="logo">MOMENTUM RAILWAY</h2>
+                <h2 class="logo">MOMENTUM RAILWAS</h2>
             </div>
         </div>
 

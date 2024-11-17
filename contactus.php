@@ -42,7 +42,7 @@
             We offer scheduled services from convenient locations on Jamaica's north and south coasts including
             connections to Portland, St. Mary, and Negril.<br>
             Let us come to your home or business to pick up your package.<br>
-            It's easy to schedule a one-time pickup online.<br>
+            It's easy to schedule a one-time pickup ober the plhone at 876-518-0198.<br>
             If you have recurring delivery needs, plan ahead with regular pickups.
         </p>
     </div>
