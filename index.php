@@ -11,7 +11,7 @@ include 'users.php';
             color: #09a939;
         }
     </style>
-    <title>RAILWAY SHIPMENTS</title>
+    <title>MOMENTUM RAILWAYS</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -19,7 +19,7 @@ include 'users.php';
     <div class="main">
         <div class="navbar">
             <div class="icon">
-                <h2 class="logo">RAILWAY SHIPMENTS</h2>
+                <h2 class="logo">MOMENTUM RAILWAY</h2>
             </div>
         </div>
 
@@ -39,7 +39,7 @@ include 'users.php';
     </div>
 
     <div class="content">
-        <h1>WELCOME TO <br> RAILWAY SHIPMENTS<br></h1>
+        <h1>WELCOME TO <br> MOMENTUM RAILWAYS<br></h1>
         <p class="par">
         <br><br>
         </p>

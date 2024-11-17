@@ -17,7 +17,7 @@
     <div class="main">
         <div class="navbar">
             <div class="icon">
-                <h2 class="logo">RAILWAY SHIPMENTS</h2>
+                <h2 class="logo"> MOMENTUM RAILWAYS </h2>
             </div>
         </div>
 

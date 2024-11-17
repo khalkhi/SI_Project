@@ -18,7 +18,7 @@
     <div class="main">
         <div class="navbar">
             <div class="icon">
-                <h2 class="logo">RAILWAY SHIPMENTS</h2>
+                <h2 class="logo">MOMENTUM RAILWAYS</h2>
             </div>
         </div>
 
@@ -41,13 +41,13 @@
     <div class="content about">
         <h1>About Us</h1>
         <p class="par">
-            Railway Shipment is dedicated to providing fast, reliable, and affordable shipping solutions via the railway
+            Momentum Railways  is dedicated to providing fast, reliable, and affordable shipping solutions via the railway
             to individuals and businesses. Our unique approach to shipping offers customers a cost-effective, reliable,
             and environmentally-friendly alternative to traditional courier services.
         </p>
 
         <p class="par">
-            At Railway Shipment, we understand that timely and secure delivery is essential for our customers' peace of
+            At Momentum Railways, we understand that timely and secure delivery is essential for our customers' peace of
             mind. That is why we offer a range of shipping options, including same-day and next-day delivery, to meet our
             customers' needs. We also provide real-time tracking information to keep our customers updated on the
             progress of their shipments. We take pride in our commitment to environmental sustainability. Shipping via
@@ -66,14 +66,14 @@
 
         <h1>Mission Statement:</h1>
         <p class="par">
-            At Railway Shipment, our mission is to provide our customers with efficient, reliable, and eco-friendly
+            At Momentum Railways, our mission is to provide our customers with efficient, reliable, and eco-friendly
             shipping solutions via the railway. We are committed to delivering exceptional customer service, building
             lasting relationships, and upholding the highest standards of professionalism and integrity.
         </p>
 
         <h1>Vision Statement:</h1>
         <p class="par">
-            Our vision at Railway Shipment is to be the leading courier service provider in Jamaica by offering
+            Our vision at Momentum Railways is to be the leading courier service provider in Jamaica by offering
             innovative, sustainable, and customized shipping solutions that exceed our customers' expectations. We aim to
             continuously improve our operations, leverage the latest technologies, and expand our service offerings to
             stay ahead of the curve and deliver superior value to our stakeholders while minimizing our environmental
